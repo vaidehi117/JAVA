@@ -35,22 +35,44 @@
 // }
 
 // Exammple 3
-class EvenOdd {
-    int number;
+// class EvenOdd {
+//     int number;
 
-    void check() {
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
+//     void check() {
+//         if (number % 2 == 0) {
+//             System.out.println(number + " is even.");
+//         } else {
+//             System.out.println(number + " is odd.");
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         EvenOdd obj = new EvenOdd();
+//         obj.number = 15;
+//         obj.check();
+//     }
+// }
+
+// Example 4
+class Largest{
+    int a; 
+    int b;
+
+    void findLargest(){
+        if(a > b){
+            System.out.println(a + " is the largest number.");
         } else {
-            System.out.println(number + " is odd.");
+            System.out.println(b + " is the largest number.");
         }
     }
 }
-
 public class Main {
-    public static void main(String[] args) {
-        EvenOdd obj = new EvenOdd();
-        obj.number = 15;
-        obj.check();
+    public static void main(String[] args){
+        Largest obj = new Largest();
+        obj.a = 25;
+        obj.b = 30;
+        obj.findLargest();
     }
 }

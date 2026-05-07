@@ -19,17 +19,38 @@
 //  }
 
 // Example two
-class Square{
-   int num;
-   void calculateSquare(){
-      int result = num * num;
-      System.out.println("Square is: " + result);
-   }
+// class Square{
+//    int num;
+//    void calculateSquare(){
+//       int result = num * num;
+//       System.out.println("Square is: " + result);
+//    }
+// }
+// public class Main {
+//    public static void main(String[] args){
+//       Square s = new Square();
+//       s.num = 6;
+//       s.calculateSquare();
+//    }
+// }
+
+// Exammple 3
+class EvenOdd {
+    int number;
+
+    void check() {
+        if (number % 2 == 0) {
+            System.out.println(number + " is even.");
+        } else {
+            System.out.println(number + " is odd.");
+        }
+    }
 }
+
 public class Main {
-   public static void main(String[] args){
-      Square s = new Square();
-      s.num = 6;
-      s.calculateSquare();
-   }
+    public static void main(String[] args) {
+        EvenOdd obj = new EvenOdd();
+        obj.number = 15;
+        obj.check();
+    }
 }

@@ -56,23 +56,44 @@
 // }
 
 // Example 4
-class Largest{
-    int a; 
-    int b;
+// class Largest{
+//     int a; 
+//     int b;
 
-    void findLargest(){
-        if(a > b){
-            System.out.println(a + " is the largest number.");
-        } else {
-            System.out.println(b + " is the largest number.");
-        }
+//     void findLargest(){
+//         if(a > b){
+//             System.out.println(a + " is the largest number.");
+//         } else {
+//             System.out.println(b + " is the largest number.");
+//         }
+//     }
+// }
+// public class Main {
+//     public static void main(String[] args){
+//         Largest obj = new Largest();
+//         obj.a = 25;
+//         obj.b = 30;
+//         obj.findLargest();
+//     }
+// }
+
+// Example 5
+class Interest{
+    int p; // principal
+    int t; // time
+    int r; // rate
+    void calculate(){
+        int si = (p * t * r) / 100;
+        System.out.println("Simple Interest: " + si);
     }
 }
+
 public class Main {
     public static void main(String[] args){
-        Largest obj = new Largest();
-        obj.a = 25;
-        obj.b = 30;
-        obj.findLargest();
+        Interest obj = new Interest();
+        obj.p = 1000;
+        obj.t = 2;
+        obj.r = 5;
+        obj.calculate();
     }
 }

@@ -68,25 +68,26 @@
 
 //Example 2
 
-import java.util.Vector;
-import java.util.List;
+// import java.util.Vector;
+// import java.util.List;
 
-public class Main {
-    public static void main(String[] args) {
-        Vector<Integer> numbers = new Vector<>();
-        numbers.add(10);
-        numbers.add(20);
-        numbers.add(30);
-        System.out.println(numbers);
+// public class Main {
+//     public static void main(String[] args) {
+//         Vector<Integer> numbers = new Vector<>();
+//         numbers.add(10);
+//         numbers.add(20);
+//         numbers.add(30);
+//         System.out.println(numbers);
 
-        System.out.println(numbers.get(0));
+//         System.out.println(numbers.get(0));
 
-        System.out.println(numbers.get(2));
+//         System.out.println(numbers.get(2));
 
-        System.out.println(numbers.size());
+//         System.out.println(numbers.size());
 
-        numbers.add(0, 78);
-        System.out.println(numbers);
-    }
-    
-    
+//         numbers.add(0, 78);
+//         System.out.println(numbers);
+//     }
+// }
+
+

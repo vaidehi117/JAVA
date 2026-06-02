@@ -22,6 +22,209 @@ The new keyword is used to create an object from a class.
 
 - It allocates memory
 - Calls the constructor
+
+# Lesson 2 
+
+## Introduction
+
+In this lesson, we learned the fundamentals of Object-Oriented Programming (OOP) in Java, including:
+
+* Classes
+* Objects
+* Constructors
+* Constructor Overloading
+* Methods
+* Inheritance
+
+These concepts help organize code and model real-world entities.
+
+---
+
+# Class
+
+## What is a Class?
+
+A class is a blueprint used to create objects.
+
+It defines:
+
+* Variables (attributes)
+* Methods (behaviors)
+
+A class itself does not store data until an object is created from it.
+
+---
+
+# Object
+
+## What is an Object?
+
+An object is an instance of a class.
+
+Objects:
+
+* Store actual data
+* Access class methods
+* Represent real-world entities
+
+Multiple objects can be created from the same class, each with different values.
+
+---
+
+# Instance Variables
+
+## What are Instance Variables?
+
+Instance variables are variables declared inside a class but outside methods.
+
+They:
+
+* Store object-specific data
+* Have separate values for each object
+
+Examples:
+
+* Name
+* Age
+* Salary
+* Brand
+
+---
+
+# Constructors
+
+## What is a Constructor?
+
+A constructor is a special method that runs automatically when an object is created.
+
+Features:
+
+* Has the same name as the class
+* Does not have a return type
+* Used to initialize object data
+
+---
+
+## Default Constructor
+
+A default constructor assigns predefined values to object variables.
+
+Benefits:
+
+* Initializes objects automatically
+* Reduces repetitive code
+
+---
+
+## Parameterized Constructor
+
+A parameterized constructor accepts values as arguments during object creation.
+
+Benefits:
+
+* Allows custom initialization
+* Makes objects more flexible
+
+---
+
+# Constructor Overloading
+
+## What is Constructor Overloading?
+
+Constructor overloading occurs when a class contains multiple constructors with different parameter lists.
+
+Benefits:
+
+* Provides multiple ways to create objects
+* Improves flexibility and usability
+
+---
+
+# Methods
+
+## What are Methods?
+
+Methods define actions that an object can perform.
+
+Benefits:
+
+* Improve code organization
+* Enable code reuse
+* Allow objects to perform specific tasks
+
+---
+
+# Multiple Objects
+
+## Creating Multiple Objects
+
+A class can create many objects.
+
+Each object:
+
+* Has its own data
+* Uses the same class structure
+* Operates independently
+
+This demonstrates the reusability of classes.
+
+---
+
+# Method Naming Across Classes
+
+Different classes can contain methods with the same name.
+
+Each class defines its own implementation of the method, allowing different behaviors for different objects.
+
+---
+
+# Inheritance
+
+## What is Inheritance?
+
+Inheritance allows one class to acquire properties and methods from another class.
+
+The class that inherits is called the child class.
+
+The class being inherited from is called the parent class.
+
+---
+
+## Benefits of Inheritance
+
+* Code reuse
+* Reduced duplication
+* Easier maintenance
+* Better organization of related classes
+
+---
+
+# Key OOP Concepts Learned
+
+### Class
+
+Blueprint for creating objects.
+
+### Object
+
+Instance of a class containing actual data.
+
+### Constructor
+
+Special method used to initialize objects.
+
+### Constructor Overloading
+
+Using multiple constructors in the same class.
+
+### Method
+
+Defines behavior of an object.
+
+### Inheritance
+
+Allows one class to reuse features of another class.
+
 ---
 # Lesson 7 
 

@@ -78,22 +78,23 @@
 // }
 
 // Example 5
-class Interest{
-    int p; // principal
-    int t; // time
-    int r; // rate
-    void calculate(){
-        int si = (p * t * r) / 100;
-        System.out.println("Simple Interest: " + si);
-    }
-}
 
-public class Main {
-    public static void main(String[] args){
-        Interest obj = new Interest();
-        obj.p = 1000;
-        obj.t = 2;
-        obj.r = 5;
-        obj.calculate();
-    }
-}
+// class Interest{
+//     int p; // principal
+//     int t; // time
+//     int r; // rate
+//     void calculate(){
+//         int si = (p * t * r) / 100;
+//         System.out.println("Simple Interest: " + si);
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args){
+//         Interest obj = new Interest();
+//         obj.p = 1000;
+//         obj.t = 2;
+//         obj.r = 5;
+//         obj.calculate();
+//     }
+// }

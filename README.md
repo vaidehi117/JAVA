@@ -468,19 +468,6 @@ Examples:
 
 ---
 
-# Key Learning Outcomes
-
-After this lesson, you should understand:
-
-* What LinkedList is
-* FIFO concept in Queue
-* What Vector is
-* Dynamic collections in Java
-* Synchronization in Vector
-* Differences between collection types
-
----
-
 # Lesson 8 
 
 ## Introduction
@@ -636,18 +623,5 @@ Both classes belong to:
 * java.util.Stack
 
 These classes must be imported before use.
-
----
-
-# Key Learning Outcomes
-
-After this lesson, you should understand:
-
-* What Vector is
-* What Stack is
-* Dynamic collections in Java
-* LIFO concept
-* Basic collection operations
-* Difference between Vector and Stack
 
 ---
